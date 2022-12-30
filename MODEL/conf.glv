@@ -1,0 +1,45 @@
+NTSTEP            4000
+TSTEP             4e6
+TSTEPMIN          4e6
+TSTEPMAX          4e6
+TSTEPA            4e6
+TSTEPB            4e6
+Z0                1.000E-8
+SPECTRA           1
+SPECTRATS         1
+
+TOTM              1.000000e+7
+TTYPE             99
+SFRFAK            -99
+DECLFAK           -99
+METAL             3
+CHCONS            0
+BURST             0
+TBURST            -99
+PSIB              -99
+PSIBE             -99
+BURSTSTRENGTH     -99
+TAUB              -99
+ISOINTF           /galev/input/ii_kroupa100_FullEL.dat
+ISOSPECF          /galev/input/is_kroupa100_FullEL.dat
+
+OFDIR             /galev/output/f30777456c47c7896d0d6d873ed9786d
+OFSTAT            comparison_stat.dat
+OFISOSPEC         comparison_spec.dat
+
+COSMOLOGY_H0      70
+COSMOLOGY_OMEGAM  0.3
+COSMOLOGY_OMEGAL  0.7
+COSMOLOGY_OMEGAK  0
+COSMOLOGY_ZFORM   8
+COSMOLOGY_ZBURST  8
+MADAUFILE         /galev/input/madau2.dat
+
+OF_COLORS         comparison_
+
+EXTINCTION_LAW    none
+EXTINCTION_MAX    0
+EXTINCTION_STEP   0
+
+FILTERLIST        /galev/output/f30777456c47c7896d0d6d873ed9786d/filter.list
+MAGSYSTEM         vega

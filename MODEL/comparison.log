@@ -1,0 +1,236 @@
+Here is GalEvP, Revision 843
+Reading config from file "/www/model.galev/models//f30777456c47c7896d0d6d873ed9786d/conf.glv".
+***** Assuming old input file with only TSTEP set (fixed timestep) *****
+Output directory "/galev/output/f30777456c47c7896d0d6d873ed9786d" seems to exist, will try to use it anyway.
+Creating model: Parameters used for this run:
+  TOTM             1e+07
+  TTYPE            99
+  SFRFAK           -99
+  TSTEP (constant) 4e+06
+  IPRECISION       10
+  AGEEND           1.6e+10
+  NTSTEP           4000
+  INFALL           0
+  CHCONS           0
+  METAL        3 = Z4
+  Z0               1e-08
+  BURST            0
+  SPECTRA          1
+  SPECTRATS        1
+  ISOINTF          /galev/input/ii_kroupa100_FullEL.dat
+  ISOSPECF         /galev/input/is_kroupa100_FullEL.dat
+  OFDIR            /galev/output/f30777456c47c7896d0d6d873ed9786d
+  OFSTAT           comparison_stat.dat
+  OFISOMAG         
+  OFISOCOL         
+  OFISOSPEC        comparison_spec.dat
+  OFISOCONT        
+  OFISOCONT2       
+
+Read isochrones... read spectra... done
+Using isochrones from the Padova group with ZAMS added
+Create timestep-based arrays, and multidimensional arrays for 
+  - luminosities... 
+  - emission properties... 
+  - iso contributions... 
+  - and spectra... 
+done
+Calculate star cluster...
+Compute the model...
+_________________________ timestep    1 ________________________________
+Age=4e+06 SFR=2.5 SMass=1e+07 GMass=1.86265e-09 
+Z=1e-08 log10(Z)=-8 Eject=0.0388601 ZEject=0.0117824 ZIso=0
+SPECTRUM 
+_________________________ timestep  101 ________________________________
+Age=4.04e+08 SFR=0 SMass=8.55081e+06 GMass=1.44919e+06 
+Z=0.0828685 log10(Z)=-1.08161 Eject=0.000658188 ZEject=5.6111e-06 ZIso=0
+SPECTRUM 
+_________________________ timestep  201 ________________________________
+Age=8.04e+08 SFR=0 SMass=8.35211e+06 GMass=1.64789e+06 
+Z=0.0738044 log10(Z)=-1.13192 Eject=0.000391731 ZEject=2.60289e-06 ZIso=0
+SPECTRUM 
+_________________________ timestep  301 ________________________________
+Age=1.204e+09 SFR=0 SMass=8.20397e+06 GMass=1.79603e+06 
+Z=0.0681972 log10(Z)=-1.16623 Eject=0.000297616 ZEject=1.48323e-06 ZIso=0
+SPECTRUM 
+_________________________ timestep  401 ________________________________
+Age=1.604e+09 SFR=0 SMass=8.11103e+06 GMass=1.88897e+06 
+Z=0.0650626 log10(Z)=-1.18667 Eject=0.000178684 ZEject=7.15537e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep  501 ________________________________
+Age=2.004e+09 SFR=0 SMass=8.04983e+06 GMass=1.95017e+06 
+Z=0.0631398 log10(Z)=-1.1997 Eject=0.000128886 ZEject=4.55155e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep  601 ________________________________
+Age=2.404e+09 SFR=0 SMass=8.00491e+06 GMass=1.99509e+06 
+Z=0.0617961 log10(Z)=-1.20904 Eject=9.63599e-05 ZEject=3.23827e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep  701 ________________________________
+Age=2.804e+09 SFR=0 SMass=7.9703e+06 GMass=2.0297e+06 
+Z=0.0608 log10(Z)=-1.2161 Eject=8.01162e-05 ZEject=2.80658e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep  801 ________________________________
+Age=3.204e+09 SFR=0 SMass=7.94031e+06 GMass=2.05969e+06 
+Z=0.0599679 log10(Z)=-1.22208 Eject=7.01651e-05 ZEject=2.68697e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep  901 ________________________________
+Age=3.604e+09 SFR=0 SMass=7.91364e+06 GMass=2.08636e+06 
+Z=0.0592534 log10(Z)=-1.22729 Eject=6.32347e-05 ZEject=2.7407e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep 1001 ________________________________
+Age=4.004e+09 SFR=0 SMass=7.8896e+06 GMass=2.1104e+06 
+Z=0.0586308 log10(Z)=-1.23187 Eject=5.68966e-05 ZEject=2.76288e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep 1101 ________________________________
+Age=4.404e+09 SFR=0 SMass=7.86843e+06 GMass=2.13157e+06 
+Z=0.0580967 log10(Z)=-1.23585 Eject=4.90013e-05 ZEject=2.37713e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep 1201 ________________________________
+Age=4.804e+09 SFR=0 SMass=7.85028e+06 GMass=2.14972e+06 
+Z=0.057647 log10(Z)=-1.23922 Eject=4.17929e-05 ZEject=2.02493e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep 1301 ________________________________
+Age=5.204e+09 SFR=0 SMass=7.83478e+06 GMass=2.16522e+06 
+Z=0.0572688 log10(Z)=-1.24208 Eject=3.63387e-05 ZEject=1.70262e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep 1401 ________________________________
+Age=5.604e+09 SFR=0 SMass=7.82101e+06 GMass=2.17899e+06 
+Z=0.0569355 log10(Z)=-1.24462 Eject=3.25162e-05 ZEject=1.40597e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep 1501 ________________________________
+Age=6.004e+09 SFR=0 SMass=7.80872e+06 GMass=2.19128e+06 
+Z=0.0566392 log10(Z)=-1.24688 Eject=2.89573e-05 ZEject=1.12979e-07 ZIso=0
+SPECTRUM 
+_________________________ timestep 1601 ________________________________
+Age=6.404e+09 SFR=0 SMass=7.79778e+06 GMass=2.20222e+06 
+Z=0.0563761 log10(Z)=-1.2489 Eject=2.61177e-05 ZEject=9.19366e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 1701 ________________________________
+Age=6.804e+09 SFR=0 SMass=7.78756e+06 GMass=2.21244e+06 
+Z=0.0561319 log10(Z)=-1.25079 Eject=2.49876e-05 ZEject=8.72205e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 1801 ________________________________
+Age=7.204e+09 SFR=0 SMass=7.77777e+06 GMass=2.22223e+06 
+Z=0.0559001 log10(Z)=-1.25259 Eject=2.39221e-05 ZEject=8.2774e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 1901 ________________________________
+Age=7.604e+09 SFR=0 SMass=7.76841e+06 GMass=2.23159e+06 
+Z=0.0556799 log10(Z)=-1.2543 Eject=2.29142e-05 ZEject=7.85678e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2001 ________________________________
+Age=8.004e+09 SFR=0 SMass=7.75945e+06 GMass=2.24055e+06 
+Z=0.0554708 log10(Z)=-1.25594 Eject=2.14931e-05 ZEject=7.30879e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2101 ________________________________
+Age=8.404e+09 SFR=0 SMass=7.75162e+06 GMass=2.24838e+06 
+Z=0.0552897 log10(Z)=-1.25736 Eject=1.7607e-05 ZEject=5.97551e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2201 ________________________________
+Age=8.804e+09 SFR=0 SMass=7.74532e+06 GMass=2.25468e+06 
+Z=0.0551446 log10(Z)=-1.2585 Eject=1.39017e-05 ZEject=4.70423e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2301 ________________________________
+Age=9.204e+09 SFR=0 SMass=7.74047e+06 GMass=2.25953e+06 
+Z=0.0550334 log10(Z)=-1.25937 Eject=1.0361e-05 ZEject=3.48945e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2401 ________________________________
+Age=9.604e+09 SFR=0 SMass=7.737e+06 GMass=2.263e+06 
+Z=0.0549542 log10(Z)=-1.26 Eject=6.97091e-06 ZEject=2.32636e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2501 ________________________________
+Age=1.0004e+10 SFR=0 SMass=7.73486e+06 GMass=2.26514e+06 
+Z=0.0549054 log10(Z)=-1.26039 Eject=3.8571e-06 ZEject=1.25409e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2601 ________________________________
+Age=1.0404e+10 SFR=0 SMass=7.73124e+06 GMass=2.26876e+06 
+Z=0.0548229 log10(Z)=-1.26104 Eject=1.4251e-05 ZEject=4.43336e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2701 ________________________________
+Age=1.0804e+10 SFR=0 SMass=7.72488e+06 GMass=2.27512e+06 
+Z=0.0546781 log10(Z)=-1.26219 Eject=1.62197e-05 ZEject=4.88888e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2801 ________________________________
+Age=1.1204e+10 SFR=0 SMass=7.71841e+06 GMass=2.28159e+06 
+Z=0.0545316 log10(Z)=-1.26335 Eject=1.58202e-05 ZEject=4.70346e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 2901 ________________________________
+Age=1.1604e+10 SFR=0 SMass=7.71224e+06 GMass=2.28776e+06 
+Z=0.0543925 log10(Z)=-1.26446 Eject=1.51704e-05 ZEject=4.5207e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3001 ________________________________
+Age=1.2004e+10 SFR=0 SMass=7.70621e+06 GMass=2.29379e+06 
+Z=0.0542574 log10(Z)=-1.26554 Eject=1.4985e-05 ZEject=4.49329e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3101 ________________________________
+Age=1.2404e+10 SFR=0 SMass=7.70051e+06 GMass=2.29949e+06 
+Z=0.0541304 log10(Z)=-1.26656 Eject=1.3439e-05 ZEject=4.05091e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3201 ________________________________
+Age=1.2804e+10 SFR=0 SMass=7.69538e+06 GMass=2.30462e+06 
+Z=0.0540165 log10(Z)=-1.26747 Eject=1.25358e-05 ZEject=3.79967e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3301 ________________________________
+Age=1.3204e+10 SFR=0 SMass=7.69043e+06 GMass=2.30957e+06 
+Z=0.0539072 log10(Z)=-1.26835 Eject=1.22031e-05 ZEject=3.71406e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3401 ________________________________
+Age=1.3604e+10 SFR=0 SMass=7.68567e+06 GMass=2.31433e+06 
+Z=0.0538026 log10(Z)=-1.2692 Eject=1.15782e-05 ZEject=3.46563e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3501 ________________________________
+Age=1.4004e+10 SFR=0 SMass=7.68112e+06 GMass=2.31888e+06 
+Z=0.0537028 log10(Z)=-1.27 Eject=1.13605e-05 ZEject=3.09945e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3601 ________________________________
+Age=1.4404e+10 SFR=0 SMass=7.67654e+06 GMass=2.32346e+06 
+Z=0.0536019 log10(Z)=-1.27082 Eject=1.15321e-05 ZEject=2.62057e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3701 ________________________________
+Age=1.4804e+10 SFR=0 SMass=7.672e+06 GMass=2.328e+06 
+Z=0.0535014 log10(Z)=-1.27164 Eject=1.10853e-05 ZEject=2.00451e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3801 ________________________________
+Age=1.5204e+10 SFR=0 SMass=7.66767e+06 GMass=2.33233e+06 
+Z=0.0534049 log10(Z)=-1.27242 Eject=1.06757e-05 ZEject=1.39828e-08 ZIso=0
+SPECTRUM 
+_________________________ timestep 3901 ________________________________
+Age=1.5604e+10 SFR=0 SMass=7.66337e+06 GMass=2.33663e+06 
+Z=0.0533086 log10(Z)=-1.2732 Eject=1.08163e-05 ZEject=8.7853e-09 ZIso=0
+SPECTRUM 
+__________________ end at timestep 4000 (Max. # of timesteps) __________
+
+...finished calculations.
+Writing /galev/output/f30777456c47c7896d0d6d873ed9786d/comparison_stat.dat: Age GMass SMass SFR log10(Z) Eject ZEject ZIso TStep
+Writing /galev/output/f30777456c47c7896d0d6d873ed9786d/comparison_spec.dat: Age Lambda Spectra (4000 columns)
+
+  *********************************************************** SVN Rev 843 ***** 
+  *                                                                           * 
+  *   The >cocos< code was programmed by the GALEV Galaxy Evolution Group.    * 
+  *   It is only designed to use it with the GALEV programm.                  * 
+  *   Please acknowledge the authors when using this program and refer to     * 
+  *   Kotulla, Fritze, Weilbacher & Anders (2009, MNRAS 296, 462)             * 
+  *                                                                           * 
+  ***************************************************************************** 
+
+   Reading configuration from file /www/model.galev/models//f30777456c47c7896d0d6d873ed9786d/conf.glv ...Unknown extinction law, using Calzetti instead
+ done!
+   Using specfile /galev/output/f30777456c47c7896d0d6d873ed9786d/comparison_spec.dat ...
+   Creating cosmology (H0=70, Om=0.3, Ol=0.7, zf=8) ... done!
+   Creating Attenuation ... done!
+   Copying data from galev-statfile /galev/output/f30777456c47c7896d0d6d873ed9786d/comparison_stat.dat
+   Enabling extinction ...
+   Computing colours for a redshift of z=0.0000 ...
+   Reading Filterfunctions ...
+     1 :                  HST_ACS_HRC_F220W    20.7903     0.0000     0.0000
+   done!
+
+   Reading spectrum: ......................... done!
+   Reading statfile: ........................................ done!
+   Assigning ages ... done!
+   - Galaxy age today: 1.2838e+10( spectra nr. 3209)
+   - B_norm (T-type 99) = 0.0000, B (from spec) = -8.5852
+   ==> normalisation: bc = 0.0000
+   Opening output files ...done!
+   Applying bolometric correction ... done!
+   Writing data, E(B-V) = 0.0000 ........................................ done!
+   Closing all files ... done!
